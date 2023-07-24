@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-image: url(pexels-golden-jojo-2409038.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(207, 196, 196);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+    margin-bottom: 200px;
+}
+
+.content{
+    margin: auto;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    width: 500px;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid rgb(207, 196, 196);
+    color: rgb(207, 196, 196);
+    padding: 10px;
+    font-size: x-small;
+    margin: 5px;
+}
+
+.buttons{
+    margin-left: 200px;
+}
+
+.position{
+    position: relative;
+}
+
+.icons{
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+img{
+    margin-bottom: 20px;
+    width: 20px;
+}
